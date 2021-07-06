@@ -27,4 +27,4 @@ LINKS
 
 [KOFFEESWAP](https://koffeeswap.exchange/#/pro/KCS/0x1f884a77ce343d599a139aa03c0305bc5566a84c) 
 
-[Telegram]((https://t.me/kubtc_community)
+[Telegram](https://t.me/kubtc_community)
