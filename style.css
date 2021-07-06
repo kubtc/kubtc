@@ -1,11 +1,12 @@
 .home{
 	/*background-image: url('image/top-bg.jpg')*/
-	background-image: url('image/giphy_25.gif');
+	background-image: url('image/download_3.png');
 	background-repeat: no-repeat;
 	height: 500px; /* You must set a specified height */
     background-position: center; /* Center the image */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
+
 }
 /*@media (min-width: 992px) {
 	.home-content{
@@ -163,11 +164,12 @@
 	padding: 25px;
 }
 .section-2-content:hover {
-	background-image: url("image/section-2_new.png");
+  /*background-image: url("image/download_3.png");*/
+  background-image: url("image/bp-special.jpg");
 	background-size: cover;
 	transition: all 0.4s ease-out 0s;
 	color: #fff;
-	-webkit-box-shadow: 0px 5px 15px -5px rgba(0,0,0,0.75);
+	-webkit-box-shadow: 0px 5px 5px -5px rgba(0,0,0,0.75);
 	-moz-box-shadow: 0px 5px 15px -5px rgba(0,0,0,0.75);
 	box-shadow: 0px 5px 15px -5px rgba(0,0,0,0.75);
 	background-color: rgba(0.30, 0.30, 0.30, 0.16);
@@ -191,15 +193,15 @@
 	background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
     color: #fff;
-    line-height: 30px;
+    line-height: 20px;
+
 }
 .sec3-overlay{
 	background: #000000b5;
 }
 .section-3 h2{
-	font-size: 60px;
+	font-size: 120px;
 }
 .section-3 .card{
 	border: none;
@@ -262,11 +264,16 @@
 	background: #171616b8;
 }
 .section-7{
-	background-image: url("image/bp-special.jpg");
+	/*background-image: url("image/bp-special.jpg");*/
+  background-image: url("image/162553794356078316.png");
     background-attachment: fixed;
     background-position: left;
-    background-repeat: no-repeat;
-    background-size: 300px 100px;
+    background-repeat: repeat;
+background-size: 100px;
+  height: 160px; /* You must set a specified height */
+    background-repeat: repeat; /* Do not repeat the image */
+/*    background-size: cover;  Resize the background image to cover the entire container */
+
 }
 .section-7-content{
 	color: #fff;
@@ -284,7 +291,7 @@
 }
 .section-7 h3{
 	color: #00a3a7;
-	font-size: 40px;
+	font-size: 50px;
 }
 .section-7 h6{
 	font-size: 20px;
@@ -308,16 +315,96 @@
 
 /*section-8*/
 
+
+
 .section-8-name:hover{
 	color: #00a3a7;
 	text-decoration: none;
 }
+/*.h3 {
+  font-family: "Lucida Console";
+  font-size: 280px;
+}
+}*/
+.section-8 h3{
+  color: #063D78;
+  font-size: 30px;
+  font-family:georgia;
+}
+.section-8 h8{
+  color: #00a3a7;
+  font-size: 50px;
+  font-family: Times New Roman;
+}
 .section-8-name{
 	color: black;
-	font-size: 20px;
+	font-size: 120px;
 	font-weight: bold;
 }
 
+
+
+
+.section-188{
+  margin-top: -16px;
+  background-image: url("image/unnamed.jpg");
+  background-size: 350px;
+/*  background-color:  #023D78;*/
+}
+.section-188-name:hover{
+  color: #00a3a7;
+  text-decoration: none;
+}
+/*.h3 {
+  font-family: "Lucida Console";
+  font-size: 280px;
+}
+}*/
+.section-188 h3{
+  /*color: #063D78;*/
+  color: #063D78;
+  font-size: 30px;
+  font-family:georgia;
+}
+.section-188 h8{
+  /*color: #00a3a7;*/
+    color: #0A2793;
+  font-size: 150px;
+  font-family: Lucida Console;
+
+}
+
+.section-188 h9{
+  /*color: #00a3a7;*/
+    color: #063D78;
+  font-size: 50px;
+  font-family: Cursive;
+}
+
+
+.section-188-name{
+  color: black;
+  font-size: 120px;
+  font-weight: bold;
+}
+
+
+
+
+/*section-18*/
+
+.section-18-name:hover{
+  color: #00a3a7;
+  text-decoration: none;
+.h3 {
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+}
+.section-18-name{
+  color: black;
+  font-size: 220px;
+  font-weight: bold;
+}
 
 /*section-9*/
 
@@ -456,6 +543,65 @@
 	background-color: #c38e00;
 }
 
+
+
+
+
+
+
+.section-17{
+  /*background-image: url("image/bg-13.jpg");*/
+  background-image: url("image/roadmap3.png");
+    background-attachment: scroll;
+background-size: 1250px;
+  height: 1620px; /* You must set a specified height */
+    background-repeat: repeat; /* Do not repeat the image */
+/*    background-size: cover;  Resize the background image to cover the entire container */
+
+}
+.section-17-img{
+  width: 180px;
+}
+.section-17-icon{
+  color: #00a3a7;
+}
+@media (min-width: 992px) {
+  .section-7-content{
+  padding-right: 200px;
+  padding-left: 200px;
+  } 
+}
+  
+}
+.section-7 h6,.section-7 p{
+  color: #fff;
+}
+.section-7 h3{
+  color: #00a3a7;
+  font-size: 50px;
+}
+.section-7 h6{
+  font-size: 20px;
+}
+.investor-img:hover{
+  transform: scale(1.3);
+    -ms-transform: scale(1.3);
+    -webkit-transform: scale(1.3);
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+.img-container{
+  overflow: hidden;
+}
+.investor-img{
+  -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    width: 100%;
+}
+
+
+
+
 .form-callback .form-group {
 	width: 100%;
 }
@@ -476,6 +622,11 @@
  .wallet-title h5:before {position: absolute;content: "";width: 50px;height: 50px;bottom: -3px;right: -4px;background: #07e0d6;border-radius: 50px;z-index: -9;}
  .wallet-title h5:after {position: absolute;content: "";width: 50px;height: 50px;top: -3px;left: -4px;background: #07e0d6;border-radius: 50px;z-index: -9;}
  .wallet-title h4 {vertical-align: middle;padding-top: 11px;font-size: 23px;letter-spacing: 1px;margin-bottom: 2rem;}
+ .step-2 {margin-top: 9rem;}
+ .step-1 {margin-top: 5rem;}
+  .wallet-title h6:before {position: absolute;content: "";width: 50px;height: 50px;bottom: -3px;right: -4px;background: #07e0d6;border-radius: 50px;z-index: -9;}
+ .wallet-title h6:after {position: absolute;content: "";width: 50px;height: 50px;top: -3px;left: -4px;background: #07e0d6;border-radius: 50px;z-index: -9;}
+ .wallet-title h7 {vertical-align: middle;padding-top: 11px;font-size: 43px;letter-spacing: 1px;margin-bottom: 2rem;}
  .step-2 {margin-top: 9rem;}
  .step-1 {margin-top: 5rem;}
  .wallet-title form {width: 100%;position: relative;}
@@ -650,7 +801,7 @@
 
 /* Footer Section */ 
 
- .footer-main {background-image: url('../image/contactus.jpg');background-position: left top;background-repeat: no-repeat;background-size: cover;padding: 5% 0 50px;text-align: center;margin-top: -100px;}
+.footer-main {background-image: url('../image/contactus.jpg');background-position: left top;background-repeat: no-repeat;background-size: cover;padding: 5% 0 50px;text-align: center;margin-top: -100px;}
  .footer-social {margin: 0px 0;}
  .footer-social li {display: inline-block;width: auto;margin: 0 20px;}
  .footer-social li img {width: 60px;height: auto;transition: ease-in .5s;}
