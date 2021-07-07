@@ -1,1 +1,1 @@
-web: python3 main_ls.py
+web: python main_ls.py
