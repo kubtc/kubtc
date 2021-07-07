@@ -347,8 +347,13 @@ background-size: 100px;
 
 .section-188{
   margin-top: -16px;
-  background-image: url("image/unnamed.jpg");
+  /*background-image: url("image/unnamed.jpg");*/
+  /*background-image: url("image/testing223.gif");*/
+  background-image: url("image/ReAxi.gif");
+  /*background-image: url("image/takeoff.gif");*/
+  /*background-size: 350px;*/
   background-size: 350px;
+  opacity: 0.9;
 /*  background-color:  #023D78;*/
 }
 .section-188-name:hover{
@@ -616,12 +621,12 @@ background-size: 1250px;
 
 
 
-.wallet-title h5 {width: 50px;float: left;text-align: center;background: #000;color: #fff;border-radius: 70px;height: 50px;line-height: 53px;margin-right: 25px;position: relative;}
+.wallet-title h5 {width: 50px;float: left;text-align: center;background: #000;color: #fff;border-radius: 70px;width: 70px;height: 70px;line-height: 63px;margin-right: 25px;position: relative;}
 /* .wallet-title p {clear: both;font-family: 'poppinsregular';}*/
  .wallet-title p span{color: #ff0050;}
- .wallet-title h5:before {position: absolute;content: "";width: 50px;height: 50px;bottom: -3px;right: -4px;background: #07e0d6;border-radius: 50px;z-index: -9;}
- .wallet-title h5:after {position: absolute;content: "";width: 50px;height: 50px;top: -3px;left: -4px;background: #07e0d6;border-radius: 50px;z-index: -9;}
- .wallet-title h4 {vertical-align: middle;padding-top: 11px;font-size: 23px;letter-spacing: 1px;margin-bottom: 2rem;}
+ .wallet-title h5:before {position: absolute;content: "";width: 80px;height: 80px;bottom: -3px;right: -4px;background: #07e0d6;border-radius: 50px;z-index: -9;}
+ .wallet-title h5:after {position: absolute;content: "";width: 80px;height: 80px;top: -3px;left: -4px;background: #07e0d6;border-radius: 50px;z-index: -9;}
+ .wallet-title h4 {vertical-align: middle;padding-top: 10px;font-size: 23px;letter-spacing: 1px;margin-bottom: 2rem;}
  .step-2 {margin-top: 9rem;}
  .step-1 {margin-top: 5rem;}
   .wallet-title h6:before {position: absolute;content: "";width: 50px;height: 50px;bottom: -3px;right: -4px;background: #07e0d6;border-radius: 50px;z-index: -9;}
