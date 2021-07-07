@@ -2,8 +2,8 @@ import Constants_ls as keys
 from telegram.ext import *
 import Responses_ls as R
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
-import os
-PORT = int(os.environ.get('PORT', 5000))
+# import os
+# PORT = int(os.environ.get('PORT', 5000))
 
 
 print("Bot started...")
@@ -123,15 +123,15 @@ def main():
 	updater = Updater(keys.API_KEY, use_context=True)
 	dp = updater.dispatcher
 
-	# #dp.add_handler(CommandHandler("start", start_command))
-	# #dp.add_handler(CommandHandler("help", help_command))
-	# dp.add_handler(CommandHandler("buy", buy_command))
-	# dp.add_handler(CommandHandler("chart", chart_command))
-	# dp.add_handler(CommandHandler("kcc", kcc_command))
-	# dp.add_handler(CommandHandler("address", address_command))
-	# dp.add_handler(CommandHandler("tutorial", tutorial_command))
-	# dp.add_handler(CommandHandler("whitepaper", whitepaper_command))
-	# dp.add_handler(CommandHandler("roadmap", roadmap_command))
+	#dp.add_handler(CommandHandler("start", start_command))
+	#dp.add_handler(CommandHandler("help", help_command))
+	dp.add_handler(CommandHandler("buy", buy_command))
+	dp.add_handler(CommandHandler("chart", chart_command))
+	dp.add_handler(CommandHandler("kcc", kcc_command))
+	dp.add_handler(CommandHandler("address", address_command))
+	dp.add_handler(CommandHandler("tutorial", tutorial_command))
+	dp.add_handler(CommandHandler("whitepaper", whitepaper_command))
+	dp.add_handler(CommandHandler("roadmap", roadmap_command))
 
 
 
@@ -149,15 +149,15 @@ def main():
 	# dp.add_handler(CallbackQueryHandler(second_submenu, pattern='m2_1'))
 
 
-	# dp.add_handler(MessageHandler(Filters.text, handle_message))
+	dp.add_handler(MessageHandler(Filters.text, handle_message))
 
 	dp.add_error_handler(error)
 
-	# updater.start_polling(0)
-	updater.start_webhook(listen="0.0.0.0",
-                          port=int(PORT),
-                          url_path=keys.API_KEY)
-	updater.bot.setWebhook('https://secret-escarpment-10009.herokuapp.com/' + keys.API_KEY)
+	updater.start_polling(0)
+	# updater.start_webhook(listen="0.0.0.0",
+ #                          port=int(PORT),
+ #                          url_path=keys.API_KEY)
+	# updater.bot.setWebhook('https://secret-escarpment-10009.herokuapp.com/' + keys.API_KEY)
 	updater.idle()
 
 

@@ -7,7 +7,7 @@ def sample_responses(input_text):
 	# 	return "Hey! How's it going?"
 
 	# if user_message in ("who are you", "who are you?", "How to buy"):
-	if user_message in ("what's the addresss", "token address"):
+	if user_message in ("what's the address", "token address", "address"):
 		return "kubtc token address: 0x1f884a77ce343d599a139aa03c0305bc5566a84cs"
 
 	# if user_message in ("How to buy", "How to buy?"):
