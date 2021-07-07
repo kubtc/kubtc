@@ -346,14 +346,19 @@ background-size: 100px;
 
 
 .section-188{
-  margin-top: -16px;
+  margin-top: -26px;
+/*  margin-bottom: -26px;*/
   /*background-image: url("image/unnamed.jpg");*/
   /*background-image: url("image/testing223.gif");*/
-  background-image: url("image/ReAxi.gif");
+  background-image: url("image/testing2345.gif");
   /*background-image: url("image/takeoff.gif");*/
   /*background-size: 350px;*/
-  background-size: 350px;
-  opacity: 0.9;
+  background-size: 950px;
+    background-repeat: no-repeat;
+  height: 430px; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
 /*  background-color:  #023D78;*/
 }
 .section-188-name:hover{
@@ -373,15 +378,25 @@ background-size: 100px;
 }
 .section-188 h8{
   /*color: #00a3a7;*/
-    color: #0A2793;
+    /*color: #0A2793;*/
+     color: #fff;
   font-size: 150px;
   font-family: Lucida Console;
 
 }
 
+
+.section-188 h7{
+  /*color: #063D78;*/
+  color: #C0C0C0;
+  font-size: 30px;
+  font-family:georgia;
+}
+
 .section-188 h9{
   /*color: #00a3a7;*/
-    color: #063D78;
+    /*color: #063D78;*/
+    color: #C0C0C0;
   font-size: 50px;
   font-family: Cursive;
 }
