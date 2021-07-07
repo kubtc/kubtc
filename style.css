@@ -357,7 +357,6 @@ background-size: 100px;
     background-repeat: no-repeat;
   height: 638px; /* You must set a specified height */
     background-position: center; /* Center the image */
-    background-repeat: no-repeat; /* Do not repeat the image */
     background-size: cover; /* Resize the background image to cover the entire container */
 /*  background-color:  #023D78;*/
 }
@@ -574,9 +573,10 @@ background-size: 100px;
   /*background-image: url("image/bg-13.jpg");*/
   background-image: url("image/roadmap3.png");
     background-attachment: scroll;
-background-size: 1250px;
+background-size: 1050px;
   height: 1620px; /* You must set a specified height */
-    background-repeat: repeat; /* Do not repeat the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-position: center;
 /*    background-size: cover;  Resize the background image to cover the entire container */
 
 }
