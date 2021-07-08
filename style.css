@@ -579,7 +579,7 @@ background-size: 100px;
   background-image: url("image/roadmap3.png");
     background-attachment: scroll;
 background-size: 1050px;
-  height: 1620px; /* You must set a specified height */
+  height: 1361px; /* You must set a specified height */
     background-repeat: no-repeat; /* Do not repeat the image */
     background-position: center;
 /*    background-size: cover;  Resize the background image to cover the entire container */
@@ -932,7 +932,7 @@ background-size: 1050px;
 .paper {
     position: relative;
     width: 90%;
-    max-width: 800px;
+    max-width: 1050px;
     min-width: 400px;
     height: 390px;
     margin: 0 auto;
@@ -948,7 +948,7 @@ background-size: 1050px;
     width: 60px;
     background: radial-gradient(#575450 6px, transparent 7px) repeat-y;
     background-size: 30px 30px;
-    border-right: 3px solid #D44147;
+    border-right: 3px solid #5e28b5;
     box-sizing: border-box;
 }
 
@@ -970,7 +970,8 @@ background-size: 1050px;
     outline: 0;
     background: transparent;
     color: mediumblue;
-    font-family: 'Handlee', cursive;
+    /*font-family: 'Handlee', cursive;*/
+    font-family: 'Handlee';
     font-weight: bold;
     font-size: 18px;
     box-sizing: border-box;
