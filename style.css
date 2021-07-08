@@ -408,7 +408,11 @@ background-size: 100px;
   font-weight: bold;
 }
 
-
+.section-188 ul.no-bullets {
+  list-style-type: none; /* Remove bullets */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margins */
+}
 
 
 /*section-18*/
